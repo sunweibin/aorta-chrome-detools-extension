@@ -1,0 +1,14 @@
+{
+  "name": "Aorta MCRM",
+  "version": "1.0.0",
+  "description": "聊TA MCRM 移动端接口调试工具",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["file:///*", "http://*/*", "https://*/*"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

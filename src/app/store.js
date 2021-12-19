@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import networkReducer from '../reducers/network';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    networkInfo: networkReducer,
   },
 });
